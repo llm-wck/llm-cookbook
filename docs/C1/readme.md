@@ -1,6 +1,6 @@
 # 第一部分 面向开发者的提示工程
 
-Prompt，提示，最初是 NLP 研究者为下游任务设计出来的一种任务专属的输入形式或模板，在 ChatGPT 引发大语言模型新时代之后，Prompt 即成为与大模型交互输入的代称。即我们一般**将给大模型的输入称为 Prompt，将大模型返回的输出称为 Completion**。
+Prompt，提示，最初是 NLP 研究者为下游任务设计出来的一种任务专属的输入形式或模板，在 ChatGPT 引发大语言模型新时代之后，Prompt 即成为`与大模型交互输入的代称`。即我们一般**将给大模型的输入称为 Prompt，将大模型返回的输出称为 Completion**。
 
 随着 ChatGPT 等 LLM（大语言模型）的出现，自然语言处理的范式正在由 Pretrain-Finetune（预训练-微调）向 Prompt Engineering（提示工程）演变。对于具有较强自然语言理解、生成能力，能够实现多样化任务处理的 LLM 来说，一个合理的 Prompt 设计极大地决定了其能力的上限与下限。**Prompt Engineering，即是针对特定任务构造能充分发挥大模型能力的 Prompt 的技巧**。要充分、高效地使用 LLM，Prompt Engineering 是必不可少的技能。
 
@@ -12,7 +12,7 @@ LLM 正在逐步改变人们的生活，而对于开发者，如何基于 LLM �
 
 1. 简介 Introduction @邹雨衡
 2. Prompt 的构建原则 Guidelines @邹雨衡
-3. 如何迭代优化 Prompt Itrative @邹雨衡
+3. 如何迭代优化 Prompt Iterative @邹雨衡
 4. 文本总结 Summarizing @玉琳
 5. 文本推断 @长琴
 6. 文本转换 Transforming @玉琳
