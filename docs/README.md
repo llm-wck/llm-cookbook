@@ -14,6 +14,8 @@
 
 **英文原版地址：[吴恩达关于大模型的系列课程](https://learn.deeplearning.ai)**
 
+
+
 ## 项目意义
 
 LLM 正在逐步改变人们的生活，而对于开发者，如何基于 LLM 提供的 API 快速、便捷地开发一些具备更强能力、集成LLM 的应用，来便捷地实现一些更新颖、更实用的能力，是一个急需学习的重要能力。
@@ -22,13 +24,19 @@ LLM 正在逐步改变人们的生活，而对于开发者，如何基于 LLM �
 
 上述教程非常适用于开发者学习以开启基于 LLM 实际搭建应用程序之路。因此，我们将该系列课程翻译为中文，并复现其范例代码，也为其中一个视频增加了中文字幕，支持国内中文学习者直接使用，以帮助中文学习者更好地学习 LLM 开发；我们也同时实现了效果大致相当的中文 Prompt，支持学习者感受中文语境下 LLM 的学习使用，对比掌握多语言语境下的 Prompt 设计与 LLM 开发。未来，我们也将加入更多 Prompt 高级技巧，以丰富本课程内容，帮助开发者掌握更多、更巧妙的 Prompt 技能。
 
+
+
 ## 项目受众
 
 所有具备基础 Python 能力，想要入门 LLM 的开发者。
 
+
+
 ## 项目亮点
 
 《ChatGPT Prompt Engineering for Developers》、《Building Systems with the ChatGPT API》等教程作为由吴恩达老师与 OpenAI 联合推出的官方教程，在可预见的未来会成为 LLM 的重要入门教程，但是目前还只支持英文版且国内访问受限，打造中文版且国内流畅访问的教程具有重要意义；同时，GPT 对中文、英文具有不同的理解能力，本教程在多次对比、实验之后确定了效果大致相当的中文 Prompt，支持学习者研究如何提升 ChatGPT 在中文语境下的理解与生成能力。
+
+
 
 ## 学习指南
 
@@ -66,6 +74,18 @@ LLM 正在逐步改变人们的生活，而对于开发者，如何基于 LLM �
 **中英双语字幕下载：[《ChatGPT提示工程》非官方版中英双语字幕](https://github.com/GitHubDaily/ChatGPT-Prompt-Engineering-for-Developers-in-Chinese)**
 
 **视频讲解：[面向开发者的 Prompt Engineering 讲解（数字游民大会）](https://www.bilibili.com/video/BV1PN4y1k7y2/?spm_id_from=333.999.0.0)**
+
+
+
+## 学习环境
+
+```
+conda create -n env_llm_cookbook python=3.9 -y
+pip install jupyter -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip install openai==0.28 -i https://pypi.tuna.tsinghua.edu.cn/simple
+```
+
+
 
 ## 致谢
 
@@ -114,9 +134,12 @@ LLM 正在逐步改变人们的生活，而对于开发者，如何基于 LLM �
 
 Made with [contrib.rocks](https://contrib.rocks).
 
+
+
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=datawhalechina/llm-cookbook&type=Date)](https://star-history.com/#datawhalechina/llm-cookbook&Date)
+
 
 
 ## 关注我们
@@ -127,5 +150,8 @@ Made with [contrib.rocks](https://contrib.rocks).
 </div>
 Datawhale 是一个专注于数据科学与 AI 领域的开源组织，汇集了众多领域院校和知名企业的优秀学习者，聚合了一群有开源精神和探索精神的团队成员。微信搜索公众号Datawhale可以加入我们。
 
+
+
 ## LICENSE
+
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-lightgrey" /></a><br />本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>进行许可。
